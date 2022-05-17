@@ -1,0 +1,129 @@
+@import url("http://fonts.cdnfonts.com/css/sofia-pro");
+@import url("https://fonts.googleapis.com/css2?family=Nova+Script&display=swap");
+
+body {
+  margin: 0;
+  font-family: "Sofia Pro", sans-serif;
+  color: #292f36;
+}
+
+.navbar {
+  background-color: rgba(41, 47, 54, 0.2);
+  height: 67px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+#nav-div span {
+  font-size: 24px;
+  font-weight: 500;
+  margin-right: 35px;
+  cursor: pointer;
+}
+
+#nav-div span:hover {
+  opacity: 80%;
+}
+
+#logo-div {
+  margin-left: 35px;
+  display: flex;
+  cursor: pointer;
+}
+
+#logo-div:hover {
+  opacity: 80%;
+}
+
+#logo-div svg {
+  width: 45px;
+  fill: #0075f2;
+  margin-right: 25px;
+}
+
+.selected {
+  color: #0075f2 !important;
+}
+
+h3 {
+  font-size: 30px;
+  font-weight: 600;
+  margin: 0;
+}
+
+#header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+  background-image: url("images/winter-2054297.jpg");
+  background-color: #c7cbd4;
+  background-size: 250vh;
+}
+
+h1 {
+  font-family: "Nova Script", cursive;
+  text-transform: uppercase;
+  font-style: italic;
+  font-size: 128px;
+  margin: 0;
+}
+
+#header svg {
+  width: 101px;
+  fill: #292f36;
+  margin-left: 50px;
+}
+
+#intro {
+  padding: 70px 50px;
+}
+
+h2 {
+  font-size: 40px;
+  font-weight: 700;
+  border-top: 5px solid #0075f2;
+  width: 310px;
+  text-align: center;
+  margin-top: 0;
+}
+
+#intro div {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  max-width: 1400px;
+}
+
+#intro p {
+  font-weight: 300;
+  font-size: 18px;
+  color: black;
+  width: 360px;
+}
+
+#intro img {
+  width: 380;
+  height: 365;
+  border-radius: 30px;
+  object-fit: cover;
+}
+
+.era-title {
+  background-color: #292f36;
+  border: none;
+  width: 100%;
+  line-height: 88px;
+  color: #f8faff;
+  margin: 0;
+}
+
+.exibit-text-left {
+  background-color: #f8faff;
+  width: 50%;
+}
