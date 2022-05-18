@@ -132,10 +132,21 @@ h2 {
   background-color: #f8faff;
   width: 50%;
   border-right: 16px solid #292f36;
+  height: 513px;
+}
+
+.exibit-text-left svg {
+  /* float: top; */
+}
+
+.exibit-title-div{
+  display: flex;
+  padding-top: 35px;
+  justify-content: space-between;
 }
 
 .exibit-title {
-  margin: 155px 0 0 112px;
+  margin: 0 0 0 112px;
   font-weight: 600;
   font-size: 30px;
   border-top: 5px solid #0075f2;
@@ -150,7 +161,8 @@ h2 {
   background-color: #292f36;
   border-radius: 50%;
   display: inline-block;
-  transform: translate(0, 6px);
+  transform: translate(50%, 6px);
+  text-align: end;
 }
 
 .exibit-date {
@@ -159,4 +171,9 @@ h2 {
   font-size: 32px;
   color: #0075f2;
   margin: 0;
+}
+
+.exibit-text{
+  margin: 10px 54px 0 112px;
+  color: black;
 }
