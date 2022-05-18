@@ -7,8 +7,14 @@ body {
   color: #292f36;
 }
 
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1300px;
+}
+
 .navbar {
-  background-color: rgba(41, 47, 54, 0.2);
+  background-color: rgba(41, 47, 54, 0.15);
   height: 67px;
   display: flex;
   align-items: center;
@@ -97,7 +103,6 @@ h2 {
   display: flex;
   justify-content: space-between;
   align-items: start;
-  max-width: 1400px;
 }
 
 #intro p {
@@ -126,4 +131,32 @@ h2 {
 .exibit-text-left {
   background-color: #f8faff;
   width: 50%;
+  border-right: 16px solid #292f36;
+}
+
+.exibit-title {
+  margin: 155px 0 0 112px;
+  font-weight: 600;
+  font-size: 30px;
+  border-top: 5px solid #0075f2;
+  text-align: center;
+  display: inline-block;
+  padding: 0 10px 0 10px;
+}
+
+.dot {
+  height: 32px;
+  width: 32px;
+  background-color: #292f36;
+  border-radius: 50%;
+  display: inline-block;
+  transform: translate(0, 6px);
+}
+
+.exibit-date {
+  display: inline-block;
+  font-weight: 600;
+  font-size: 32px;
+  color: #0075f2;
+  margin: 0;
 }
