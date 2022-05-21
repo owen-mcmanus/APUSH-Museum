@@ -1,0 +1,11 @@
+#yakchals {
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/c/cc/Yakhchal_of_Yazd_province.jpg);
+}
+
+#frederic-tudor {
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/1/1b/Frederic_Tudor-facingright_pre1864.jpg);
+  background-size: auto 100%;
+  background-position: 50% 0;
+  background-color: #f8faff;
+  /* border-top: 2px solid #8e99a5; */
+}
