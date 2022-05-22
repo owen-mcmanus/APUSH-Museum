@@ -9,3 +9,9 @@
   background-color: #f8faff;
   /* border-top: 2px solid #8e99a5; */
 }
+
+#ice-house {
+  background-image: url(https://tile.loc.gov/storage-services/service/pnp/fsa/8d16000/8d16200/8d16280r.jpg);
+  background-position: 50% 50%;
+  color: #f8faff;
+}

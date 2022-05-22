@@ -218,3 +218,16 @@ h2 {
   align-items: flex-end;
   justify-content: flex-end;
 }
+
+.more {
+  all: unset;
+  cursor: pointer;
+  color: #0075f2;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 40px;
+}
+
+.more:hover {
+  color: #023b79;
+}
