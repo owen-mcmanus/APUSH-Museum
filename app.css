@@ -15,7 +15,6 @@ body {
   position: fixed;
   top: 0;
   background-color: #232f3eee;
-  font-family: "Montserrat", sans-serif;
   height: 75px;
   display: flex;
   align-items: center;
@@ -41,7 +40,6 @@ body {
   width: 59px;
   height: 35px;
   margin-left: 50px;
-  border-radius: 6px;
 }
 #close {
   margin-right: 50px;
