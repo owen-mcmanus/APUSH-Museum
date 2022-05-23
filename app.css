@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Nova+Script&display=swap");
 @font-face {
   font-family: AmazonEmber;
-  src: url(/fonts/Amazon-Ember-Medium.ttf);
+  src: url("/fonts/Amazon-Ember-Medium.ttf");
 }
 
 body {
