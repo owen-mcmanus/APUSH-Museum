@@ -12,6 +12,7 @@ body {
 }
 
 .add {
+  z-index: 9999;
   position: fixed;
   bottom: 5px;
   margin-left: 50%;
