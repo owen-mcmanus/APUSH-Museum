@@ -155,14 +155,15 @@ body {
   width: 100%;
 }
 
-#nav-div span {
+#nav-div a {
+  all: unset;
   font-size: 24px;
   font-weight: 500;
   margin-right: 35px;
   cursor: pointer;
 }
 
-#nav-div span:hover {
+#nav-div a:hover {
   opacity: 80%;
 }
 
@@ -348,6 +349,7 @@ h2 {
   display: flex;
   align-items: flex-end;
   justify-content: flex-end;
+  background-color: #f8faff;
 }
 
 .more {

@@ -6,12 +6,33 @@
   background-image: url(https://upload.wikimedia.org/wikipedia/commons/1/1b/Frederic_Tudor-facingright_pre1864.jpg);
   background-size: auto 100%;
   background-position: 50% 0;
-  background-color: #f8faff;
-  /* border-top: 2px solid #8e99a5; */
 }
 
 #ice-house {
   background-image: url(https://tile.loc.gov/storage-services/service/pnp/fsa/8d16000/8d16200/8d16280r.jpg);
   background-position: 50% 50%;
   color: #f8faff;
+}
+
+#john-gorrie {
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/7/7d/Gorrie_Ice_Machine.png);
+  background-size: auto 100%;
+  background-position: 50% 50%;
+}
+
+#swift {
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/3/3a/Swift_Refrigerator_Line_car%2C_1899.jpg);
+  background-position: 50% 50%;
+}
+
+#domestic-refrigeration {
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/d/df/DOMELRE_refrigerator_c._1914.png);
+  background-size: auto 100%;
+  background-position: 50% 50%;
+}
+
+#einstein {
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/5/55/Einstein_Refrigerator_pat1781541_clarified.jpg);
+  background-size: auto 100%;
+  background-position: 50% 50%;
 }

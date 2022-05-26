@@ -48,3 +48,4 @@ addIcon.addEventListener("click", (e)=>{e.stopPropagation();xandr.style.display 
 addIcon.addEventListener("mouseover", ()=>addIcon.src = "https://choices.trustarc.com/get?name=admarker-full-tr.png");
 addIcon.addEventListener("mouseout", ()=>addIcon.src = "https://choices.trustarc.com/get?name=admarker-icon-tr.png");
 xandrClose.addEventListener("click", (e)=>{e.stopPropagation();xandr.style.display = "none";addIcon.style.display="block"});
+xandr.addEventListener("click", (e)=>e.stopPropagation());
