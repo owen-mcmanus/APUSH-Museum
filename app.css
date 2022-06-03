@@ -9,6 +9,7 @@ body {
   margin: 0;
   font-family: "Sofia Pro", sans-serif;
   color: #292f36;
+  background-color: #f8faff;
 }
 
 .add {
@@ -251,6 +252,10 @@ h2 {
   object-fit: cover;
 }
 
+.logo-svg {
+  float: left;
+}
+
 .era-title {
   background-color: #292f36;
   border: none;
@@ -288,6 +293,7 @@ h2 {
 .exibit-title-div {
   display: flex;
   padding-top: 35px;
+  margin-top: 115px;
 }
 
 .exibit-section-left .exibit-title-div {
@@ -363,4 +369,29 @@ h2 {
 
 .more:hover {
   color: #023b79;
+}
+
+#footer {
+  height: 88px;
+  background-color: #292f36;
+  color: #f8faff;
+  display: flex;
+  align-items: center;
+  font-size: 25px;
+  padding-left: 50px;
+  padding-right: 50px;
+  justify-content: space-between;
+}
+
+#footer #gh {
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#footer #gh svg {
+  width: 25px;
+  transform: translate(-50% -50%);
+  margin-left: 10px;
 }
