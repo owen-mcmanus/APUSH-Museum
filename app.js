@@ -28,7 +28,8 @@ function scrollFunction() {
 }
 
 
-
+let logoDiv = document.querySelector('#logo-div');
+logoDiv.addEventListener("click", ()=>location.href = "https://www.youtube.com/watch?v=rog8ou-ZepE");
 
 let btn = document.getElementById("close");
 let awsBanner = document.getElementById("AWS");
