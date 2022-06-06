@@ -10,8 +10,71 @@
 
 #ice-house {
   background-image: url(https://tile.loc.gov/storage-services/service/pnp/fsa/8d16000/8d16200/8d16280r.jpg);
-  background-position: 50% 50%;
+  background-size: auto 100%;
   color: #f8faff;
+}
+
+#cullen {
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/8/8b/William_Cullen.jpg);
+  background-size: auto 95%;
+  background-position: 50% 50%;
+}
+
+#perkins {
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/6/63/Jacob_Perkins%27_Ice_Machine_1834_from_Scientific_American_Article.jpg);
+  /* background-size: auto 100%; */
+  background-position: 0 50%;
+}
+
+#ice-box {
+  background-image: url(https://www.monticello.org/sites/default/files/uploaded-content-images/Fridge.jpg);
+  background-size: 90% auto;
+  background-position: 50% 50%;
+}
+
+#first-trip {
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/a/a4/Brig_Niagara_full_sail.jpg);
+  background-position: 50% 50%;
+}
+
+#jarvis {
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/a/a1/Spy_Pond_Ice_Harvesting_from_a_1854_print.jpg);
+  background-position: 50% 50%;
+}
+
+#dewar {
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/0/08/Ri_2014_-_Thermos_flask_-_James_Dewar_%2827%29.jpg);
+  background-position: 50% 50%;
+}
+
+#carrier {
+  background-image: url(https://ids.si.edu/ids/deliveryService?id=NMAH-93-5480&max=1000);
+  background-position: 50% 50%;
+}
+
+#ge {
+  background-image: url(https://collections.museumsvictoria.com.au/content/media/43/168743-small.jpg);
+  background-size: auto 100%;
+  background-position: 50% 0;
+}
+
+#cart {
+  background-image: url(https://ids.si.edu/ids/deliveryService?max=800&id=https%3A%2F%2Famericanhistory.si.edu%2Fsites%2Fdefault%2Ffiles%2Fgirls%2520delivering%2520ice.jpg);
+  background-position: 50% 50%;
+}
+
+#roman {
+  background-image: url(https://www.archaeology.org/images/News/1804/Switzerland-Roman-refrigerator.jpg);
+}
+
+#india {
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/SS_Dunedin_by_Frederick_Tudgay.JPG/800px-SS_Dunedin_by_Frederick_Tudgay.JPG);
+}
+
+#sawdust {
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/5/51/Saw_dust_%28Zaagsel%29.jpg);
+  background-size: auto 100%;
+  background-position: 50% 0;
 }
 
 #john-gorrie {

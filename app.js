@@ -27,6 +27,8 @@ function scrollFunction() {
   }
 }
 
+let gh = document.getElementById('gh');
+gh.addEventListener("click", ()=>location.href = "https://github.com/owen-mcmanus/APUSH-Museum");
 
 let logoDiv = document.querySelector('#logo-div');
 logoDiv.addEventListener("click", ()=>location.href = "https://www.youtube.com/watch?v=rog8ou-ZepE");

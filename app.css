@@ -293,7 +293,7 @@ h2 {
 .exibit-title-div {
   display: flex;
   padding-top: 35px;
-  margin-top: 115px;
+  margin-top: 100px;
 }
 
 .exibit-section-left .exibit-title-div {
@@ -324,12 +324,12 @@ h2 {
   background-color: #292f36;
   border-radius: 50%;
   display: inline-block;
-
   text-align: end;
 }
 
 .exibit-section-left .dot {
   transform: translate(50%, 6px);
+  float: right;
 }
 .exibit-section-right .dot {
   transform: translate(-50%, 6px);
@@ -388,6 +388,7 @@ h2 {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  cursor: pointer;
 }
 
 #footer #gh svg {
